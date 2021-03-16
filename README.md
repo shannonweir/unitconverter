@@ -11,8 +11,9 @@ for reference purposes and/or to test the endpoints.
 # Prerequisite
 1. Docker
 2. Maven
+3. Java
 
-# Steps to run Online Registration Server
+# Steps to run unit coverter server
 1. Pull the project 
 2. Make sure you have docker installed. You can check this, using the following command: 'docker -v'
 3. Open cmd
