@@ -11,6 +11,7 @@ for reference purposes and/or to test the endpoints.
 # Prerequisite
 1. Docker
 2. Maven
+3. Java
 
 # Steps to run unit coverter server
 1. Pull the project 
