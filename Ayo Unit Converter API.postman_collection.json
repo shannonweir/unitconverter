@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "f7079ff6-9158-4102-ba47-a8f267d618c9",
+		"name": "Ayo Unit Converter API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Convert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ayo/api/convert?measurement=100&unitConversion=C_C&metricType=TEMPERATURE",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ayo",
+						"api",
+						"convert"
+					],
+					"query": [
+						{
+							"key": "measurement",
+							"value": "100"
+						},
+						{
+							"key": "unitConversion",
+							"value": "C_C"
+						},
+						{
+							"key": "metricType",
+							"value": "TEMPERATURE"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Metric Types",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Units By Metric Type",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ayo/api/metric/units?metricType=SPEED",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ayo",
+						"api",
+						"metric",
+						"units"
+					],
+					"query": [
+						{
+							"key": "metricType",
+							"value": "SPEED"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
